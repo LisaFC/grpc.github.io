@@ -8,6 +8,8 @@ markdown:
 
 baseurl:
 
+javaurl: {{ site.baseurl }}/docs/userguides/java
+
 githuburl: https://github.com/grpc/grpc.github.io/
 
 sass:
