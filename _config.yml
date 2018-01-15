@@ -8,8 +8,6 @@ markdown:
 
 baseurl:
 
-javaurl: {{ site.baseurl }}/docs/userguides/java
-
 githuburl: https://github.com/grpc/grpc.github.io/
 
 sass:
@@ -22,3 +20,6 @@ paginate: 5
 paginate_path: "/blog/page:num/"
 
 excerpt_separator: <!--more-->
+
+javaurl: https://github.com/grpc/grpc.github.io/
+  
