@@ -10,6 +10,8 @@ baseurl:
 
 githuburl: https://github.com/grpc/grpc.github.io/
 
+javapath: /docs/userguides/java
+
 sass:
   style: compressed
   
