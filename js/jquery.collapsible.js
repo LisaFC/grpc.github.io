@@ -1,6 +1,6 @@
 /*!
 * Adapted from collapsible.js 1.0.0
-* https://github.com/jordnkr/collapsible
+* http://github.com/jordnkr/collapsible
 */
 
     function highlightActive() {
