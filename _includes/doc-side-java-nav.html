@@ -15,6 +15,25 @@
 		<a class = "submenu-link {% if current[4] == 'bidi.html' %}class='current'{% endif %}" href="{{site.baseurl }}{{ site.javapath }}/bidi.html">Bidirectional streaming</a>
 	</div>
 	</li>
-	
-	
+	<li class="doc-side-nav-list-item"><a href="{{site.baseurl }}{{ site.javapath }}/stub.html" {% if current[3] == 'stub.html' %}class='current'{% endif %}>Implementing server stubs</a></li>
+	<li class="submenu"><h7 class = "arrow-r">Using client stubs</h7>
+	<div class="submenu-content">
+		<a class = "submenu-link {% if current[4] == 'blocking-stub.html' %}class='current'{% endif %}" href="{{site.baseurl }}{{ site.javapath }}/blocking-stub.html">Using a blocking stub</a>
+		<a class = "submenu-link {% if current[4] == 'future-stub.html' %}class='current'{% endif %}" href="{{site.baseurl }}{{ site.javapath }}/future-stub.html">Using a future stub</a>
+		<a class = "submenu-link {% if current[4] == 'asynchronous-stub.html' %}class='current'{% endif %}" href="{{site.baseurl }}{{ site.javapath }}/asynchronous-stub.html">Using an asynchronous stub</a>
+	</div>
+	<li class="submenu"><h7 class = "arrow-r">Error handling</h7>
+	<div class="submenu-content">
+		<a class = "submenu-link {% if current[4] == 'canonical-exceptions.html' %}class='current'{% endif %}" href="{{site.baseurl }}{{ site.javapath }}/canonical-exceptions.html">Canonical status exceptions</a>
+		<a class = "submenu-link {% if current[4] == 'application-exceptions.html' %}class='current'{% endif %}" href="{{site.baseurl }}{{ site.javapath }}/application-exceptions.html">Application exceptions</a>
+		<a class = "submenu-link {% if current[4] == 'uncaught.html' %}class='current'{% endif %}" href="{{site.baseurl }}{{ site.javapath }}/uncaught.html.html">Uncaught exceptions</a>
+		<a class = "submenu-link {% if current[4] == 'catching.html' %}class='current'{% endif %}" href="{{site.baseurl }}{{ site.javapath }}/catching.html">Catching exceptions</a>
+	</div>
+	<li><h6 class="doc-side-nav-title">Features</h6></li>
+	<li class="submenu"><h7 class = "arrow-r">Metadata</h7>
+	<div class="submenu-content">
+		<a class = "submenu-link {% if current[4] == 'metadata-key.html' %}class='current'{% endif %}" href="{{site.baseurl }}{{ site.javapath }}/metadata-key.html">Defining metadata keys</a>
+		<a class = "submenu-link {% if current[4] == 'setting-metadata.html' %}class='current'{% endif %}" href="{{site.baseurl }}{{ site.javapath }}/setting-metadata.html">Setting metadata</a>
+	</div>
+	...
 </ul>
