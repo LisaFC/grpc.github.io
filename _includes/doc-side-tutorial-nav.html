@@ -2,19 +2,19 @@
 	{% assign current = page.url | downcase | split: '/' %}
 	<h5 class="doc-side-nav-title">Tutorial</h5>
     <li class="submenu">
-        <h6 class="arrow-r">Asynchronous</h6>
+        <h7 class="arrow-r">Asynchronous</h7>
         <div class="submenu-content">
             <a class="submenu-link {% if current[4] == 'helloasync-cpp.html' %}active{% endif %}" href="{{ site.baseurl }}/docs/tutorials/async/helloasync-cpp.html">C++</a>
         </div>
     </li>
     <li class="submenu">
-        <h6 class="arrow-r">Authentication</h6>
+        <h7 class="arrow-r">Authentication</h7>
         <div class="submenu-content">
             <a class="submenu-link {% if current[4] == 'oauth2-objective-c.html' %}active{% endif %}" href="{{ site.baseurl }}/docs/tutorials/auth/oauth2-objective-c.html">Objective C</a>
         </div>
     </li>
     <li class="submenu">
-        <h6 class="arrow-r">Basic</h6>
+        <h7 class="arrow-r">Basic</h7>
         <div class="submenu-content">
             <a class="submenu-link {% if current[4] == 'c.html' %}active{% endif %}" href="{{ site.baseurl }}/docs/tutorials/basic/c.html">C++</a>
             <a class="submenu-link {% if current[4] == 'csharp.html' %}active{% endif %}" href="{{ site.baseurl }}/docs/tutorials/basic/csharp.html">C#</a>
