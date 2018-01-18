@@ -1,6 +1,6 @@
+<button class="btn btn-grpc btn-back">All gRPC docs</button>
 <ul class="doc-side-nav doc-side-nav-nested">
 	{% assign current = page.url | downcase | split: '/' %}
-	<li><img src="../img/back-arrow.png"/><h6><a href= "{{ site.baseurl }}/docs/userguides/">All gRPC docs</a></h6></li>
 	<li><h6 class="doc-side-nav-title">Getting started</h6></li>
 	<li class="doc-side-nav-list-item"><a href="{{site.baseurl }}{{ site.javapath }}/index.html" {% if current[3] == 'index.html' %}class='current'{% endif %}>Introduction</a></li>
 	<li class="doc-side-nav-list-item"><a href="{{ site.baseurl }}/docs/quickstart/java.html">Quick start</a></li>
