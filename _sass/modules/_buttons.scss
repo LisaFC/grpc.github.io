@@ -53,6 +53,11 @@
       font-weight: 500;
       font-size: 14px;
     }
+    
+    // User guide back to all docs button
+    &.btn-back {
+      background: url('../img/back-button.png') no-repeat left/contain;
+    }
   }
 
   // Floating Action Button
