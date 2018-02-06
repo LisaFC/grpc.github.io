@@ -1,7 +1,7 @@
 ---
 layout: post
 title: gRPC and Deadlines
-published: 
+published: true
 permalink: blog/deadlines
 author: Gráinne Sheerin, Google SRE
 company: Google
@@ -129,8 +129,8 @@ ctx, cancel := context.WithTimeout(ctx, clientDeadline)
 
 
 ```java
- @Option(name="--deadline_ms", usage="Deadline in milliseconds.")
-  private int deadlineMs = 20*1000;
+@Option(name="--deadline_ms", usage="Deadline in milliseconds.")
+private int deadlineMs = 20*1000;
 
 response = blockingStub.withDeadlineAfter(deadlineMs, TimeUnit.MILLISECONDS).sayHello(request);
 ```
